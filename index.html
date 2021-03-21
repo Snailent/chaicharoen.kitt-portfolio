@@ -10,6 +10,7 @@
         
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         <link rel="icon" href="img/icon.png">
 
@@ -23,6 +24,7 @@
         <link rel="stylesheet" href="css/myOvewrites.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
 
 <body>
@@ -59,9 +61,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-            <img class="profile-pic" src="img/mypic.jpg" alt="">
+            <img class="profile-pic" src="img/mypic.jpg" alt="" data-aos="fade-up" data-aos-duration="2000">
         </div>
-            <div class="col-md-6 col-sm-12 text-content">
+            <div class="col-md-6 col-sm-12 text-content" >
                 <h1>Hi, I’m FERN.</h1>
                 <h4>KITTAPORN CHAICHAROEN</h4>
                 <h4>I’m a front-end developer</h4>
@@ -133,7 +135,12 @@
                             </div>
                         </div></div>
                     <div class="col-md-4 col-sm-12">
-                        <div class="section-icons"></div>
+                        <div class="section-icons">
+                            <img src="img/html.png" alt="" data-aos="flip-right">
+                            <img src="img/css.png" alt="" data-aos="flip-left" data-aos-delay="300">
+                            <img src="img/ps.png" alt="" data-aos="flip-right" data-aos-delay="400">
+                            <img src="img/xd.png" alt="" data-aos="flip-left" data-aos-delay="500">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -309,5 +316,8 @@
         };
     }
     </script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
