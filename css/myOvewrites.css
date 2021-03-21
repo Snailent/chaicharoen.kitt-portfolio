@@ -1,0 +1,29 @@
+#home .profile-pic{
+    width: 450px;
+    }
+#home .row{
+    display: flex;
+    align-items: center;   
+    }
+    @media (max-width: 767px) {
+        #home .row{
+            display: block 
+            }
+    }
+    #about {        
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f7fbf4;
+	height: 650px;
+    }
+    #skills {        
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 500px;
+    }
+    #skills .group-technical-skills{
+height: 150px;
+    }
+    #skills .group-language-box{
+height: 80px;
+    }

@@ -209,10 +209,10 @@ p {
 
 .baner-content {
 	width: 100%;
-  	padding-top: 35vh;
+  	padding-top: 20vh;
   	text-align: center;
-  	background-image: url(../img/banner_bg.jpg);
-  	vertical-align: middle;
+  	background-image: url(../img/bg1.jpg);
+  	vertical-align: top;
 }
 
 .baner-content .text-content {
@@ -248,19 +248,19 @@ p {
 }
 
 
-#about {
+/* #about {
 	padding: 150px 0px;
 	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-}
+} */
 
-#about .service-item {
+/* #about .service-item {
 	text-align: center;
-}
+} */
 
-#about .service-item .icon {
+/* #about .service-item .icon {
 	width: 110px;
 	height: 110px;
 	display: inline-block;
@@ -293,7 +293,7 @@ p {
 
 #about .service-item .primary-blue-button {
 	margin-top: 35px;
-}
+} */
 
 
 .projects-holder .mix {
