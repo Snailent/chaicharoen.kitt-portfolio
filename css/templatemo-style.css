@@ -23,7 +23,7 @@ ul {
 
 p {
 	color: #7a7a7a;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 24px;
 }
 
@@ -364,39 +364,14 @@ p {
 	color: #fff;
 	padding-right: 70px;
 }
-
-
-#testimonial {
-	background-color: #f7c552;
-	text-align: center;
-	padding: 100px 0px;
-}
-
-#testimonial .testimonials-item h4 {
-	color: #fff;
-	font-size: 17px;
-	font-weight: 500;
-	letter-spacing: 0.5px;
-	margin-top: 30px;
-	margin-bottom: 5px;
-}
-
-#testimonial .testimonials-item span {
-	font-size: 13px;
-	color: #fff;
-	letter-spacing: 0.5px;
-}
-
-#testimonial .testimonials-item p {
-	font-size: 16px;
-	color: #9a9a9a;
-	font-style: italic;
-	font-weight: 300;
-	background-color: #fff;
-	padding: 30px;
-	border-radius: 5px;	
-}
-
+#owl-demo .item{
+	margin: 3px;
+  }
+  #owl-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+  }
 .owl-pagination {
   margin-top: 20px;
   opacity: 1;
@@ -419,7 +394,7 @@ p {
 
 
 
-#blog {
+/* #blog {
 	background-image: url(../img/blog-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -456,7 +431,7 @@ p {
 #blog .section-heading p {
 	color: #fff;
 	padding-right: 70px;
-}
+} */
 
 .wrapper {
   text-align: center;
@@ -531,34 +506,39 @@ p {
   clear:both;
 }
 
-#contact-us {
-	background-color: #596065;
+#personal {
+	background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	padding: 80px 0;
 	text-align: center;
-	padding: 80px 0px;
-}
-
-#contact-us .section-heading h4 {
-	margin-top: 0px;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-weight: 700;
 	color: #fff;
-	letter-spacing: 1px;
 }
 
-#contact-us .section-heading .line-dec {
+#personal h2 {
+	margin-top: 0px;
+	font-size: 36px;
+	font-weight: 700;
+}
+#personal p {
+	color: #fff;
+}
+
+#personal .section-heading .line-dec {
 	width: 270px;
 	height: 1px;
 	background-color: rgba(250, 250, 250, 0.5);
 	margin: 20px auto 15px auto;
 }
 
-#contact-us .section-heading p {
+#personal .section-heading p {
 	color: #fff;
 	padding: 0px 33%;
 }
 
-#contact-us .pop-button {
+#personal .pop-button {
 	margin-top: 30px;
 }
 
@@ -654,90 +634,24 @@ p {
 footer {
 	margin-top: -6px;
 	background-color: #373a3c;
-	padding: 50px 0px;
-}
-footer .logo em {
-	font-style: normal;
-	font-size: 28px;
-	color: #f7c552;
-}
-footer .logo-ft {
-	display: inline-block;
-	margin-top: 15px;
-	text-decoration: none;
-	color: #fff!important;
-	font-size: 21px;
-	font-weight: 900;
-	text-transform: uppercase;
-	text-shadow: none;
-	letter-spacing: 1px;
+	padding: 80px 0px;
 }
 
-footer .logo p {
-	font-weight: 300;
-	font-size: 12px;
-	color: #fff;
-	margin-bottom: -10px;
-	letter-spacing: 0.5px;
-}
 
-footer .logo span {
-	font-weight: 600;
-	color: #f7c552;
-}
-
-footer .logo a {
-	color: #FFF;
-}
-
-footer .logo a:hover {
-	color: #9F0;
-}
-
-footer .location h4 {
+footer .contact-info h2 {
 	margin-top: 0px;
-	font-size: 13px;
-	font-weight: 500;
+	font-size: 36px;
+	font-weight: lighter;
 	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	margin-bottom: 30px;
-}
-
-footer .location ul li {
-	font-size: 13px;
-	color: #fff;
-	display: inline-block;
-	line-height: 24px;
-	letter-spacing: 0.5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-footer .location ul li:first-child {
-	margin-right: 15px;
-	padding-right: 15px;
-	border-right: 1px solid rgba(250, 250, 250, 0.1);
-}
-
-footer .contact-info h4 {
-	margin-top: 0px;
-	font-size: 13px;
-	font-weight: 500;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
 	margin-bottom: 30px;
 }
 
 footer .contact-info ul li {
-	font-size: 13px;
+	font-size: 18px;
 	color: #fff;
-	display: inline-block;
-	line-height: 24px;
-	letter-spacing: 0.5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-weight: 300;
 	margin-bottom: -15px;
 }

@@ -28,3 +28,18 @@ height: 150px;
 height: 80px;
     }
 
+#personal .left-side, #personal .right-side{
+    cursor: pointer;
+background-size: cover;
+height: 320px;
+    }
+#personal .left-side{
+background-image: url(../img/game1.jpg);
+    }
+#personal .right-side{
+background-image: url(../img/game2.jpg);
+    }
+
+    #personal .px-0 {
+        padding: 0 5px;
+    }
