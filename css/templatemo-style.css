@@ -100,7 +100,7 @@ p {
 
 .navbar-nav>li>a {
 	color: #fff!important;
-	font-size: 13px;
+	font-size:16px;
 	font-weight: 300;
 	text-transform: uppercase;
 	text-shadow: none;
@@ -115,12 +115,17 @@ p {
 
 .header.active .navbar-nav>li>a {
 	font-family: 'Open Sans', arial, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	text-shadow: none;
 	color: #121212!important;
+	transition: 0.3s;
+}
+
+.navbar-nav>li>a:hover {
+    text-decoration: underline;
 }
 
 .header.active {
@@ -506,7 +511,7 @@ p {
   clear:both;
 }
 
-#personal {
+#work {
 	background-image: url(../img/bg2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -517,28 +522,28 @@ p {
 	color: #fff;
 }
 
-#personal h2 {
+#work h2 {
 	margin-top: 0px;
 	font-size: 36px;
 	font-weight: 700;
 }
-#personal p {
+#work p {
 	color: #fff;
 }
 
-#personal .section-heading .line-dec {
+#work .section-heading .line-dec {
 	width: 270px;
 	height: 1px;
 	background-color: rgba(250, 250, 250, 0.5);
 	margin: 20px auto 15px auto;
 }
 
-#personal .section-heading p {
+#work .section-heading p {
 	color: #fff;
 	padding: 0px 33%;
 }
 
-#personal .pop-button {
+#work .pop-button {
 	margin-top: 30px;
 }
 
@@ -635,16 +640,23 @@ footer {
 	margin-top: -6px;
 	background-color: #373a3c;
 	padding: 80px 0px;
+	text-align: center;
 }
-
-
+footer .contact-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+footer .gif {
+	width: 50px;
+}
 footer .contact-info h2 {
 	margin-top: 0px;
 	font-size: 36px;
 	font-weight: lighter;
 	color: #fff;
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom:15px;
 }
 
 footer .contact-info ul li {
@@ -828,6 +840,7 @@ footer .connect-us ul li a:hover {
 		font-family: 'Roboto', sans-serif!important;
 		line-height: 55px;
 		color: #343434!important;
+		transition: 0.3s;
 	}
 
 }
