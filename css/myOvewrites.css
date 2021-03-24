@@ -112,7 +112,19 @@ background-image: url(../img/game2.jpg);
     .group-technical-skills {
         padding-right: 50px;
     }
-    
+@media (max-width: 1024px)    {
+    .section-icons {
+        padding-left: 20px;
+        margin-top: 20%;
+    }
+    .section-icons img{
+        width: 120px;
+    }
+    #about, #skills, #skills .group-technical-skills{
+        height: auto;
+    }
+}
+
 @media (max-width: 767px) {
     #home h1 {
         font-size: 36px;
@@ -121,21 +133,14 @@ background-image: url(../img/game2.jpg);
         width: 130px;
         height: 130px;
         right: 5%;
-    }
+    }    
     .section-icons {
         padding-left: 20px;
         margin-top: 50%;
     }
-    .section-icons img{
-        width: 120px;
-    }
     #work .px-0 {
         padding: 5px;
-    }
-    #about, #skills, #skills .group-technical-skills{
-        height: auto;
-    }
-    
+    }    
     .group-technical-skills {
         padding-right: 0;
     }

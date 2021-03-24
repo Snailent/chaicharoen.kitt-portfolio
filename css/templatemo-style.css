@@ -809,7 +809,7 @@ footer .connect-us ul li a:hover {
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.baner-content .text-content p {
 		padding: 0px 10%;
 	}
