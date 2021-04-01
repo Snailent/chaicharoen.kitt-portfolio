@@ -112,6 +112,14 @@ background-image: url(../img/game2.jpg);
     .group-technical-skills {
         padding-right: 50px;
     }
+    .internwork {
+        display: flex;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .internwork:hover {
+        opacity: 0.7;
+    }
 @media (max-width: 1024px)    {
     .section-icons {
         padding-left: 20px;
