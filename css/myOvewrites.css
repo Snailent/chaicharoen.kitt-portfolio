@@ -5,130 +5,160 @@
 #home h1 {
     font-size: 56px;
     font-weight: 700px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 1px solid #f7fbf4;
-    border-bottom-color: rgba(255,255,255,0.35);
+    border-bottom-color: rgba(255, 255, 255, 0.35);
     display: inline-block;
 }
-#home .row{
+
+#home .row {
     display: flex;
-    align-items: center;  
-    }
-    @media (max-width: 767px) {
-        #home .row{
-            display: block 
-            }
-    }
-    #about {        
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #f7fbf4;
-	height: 650px;
-    -webkit-box-shadow: 0px -20px 20px 15px #f7fbf4; 
-box-shadow: 0px -20px 20px 15px #f7fbf4;
-    }
+    align-items: center;
+}
 
-    #about .profile-pic{
-        width: 450px;
-        border-radius: 50%;
-        }
+@media (max-width: 767px) {
+    #home .row {
+        display: block
+    }
+}
 
-     #about .circle {
-         position: absolute;
-         width: 150px;
-         height: 150px;
-         background-color: #ffcb69;
-         border-radius: 50%;
-         right: 20%;
-         bottom: -40px;
-     }   
-    #skills {        
-	padding-top: 50px;
-	padding-bottom: 50px;
-	height: 500px;
-    }
-    #skills .group-technical-skills{
-height: 100px;
-    }
-    #skills .group-language-box{
-height: 80px;
-    }
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7fbf4;
+    height: 650px;
+    -webkit-box-shadow: 0px -20px 20px 15px #f7fbf4;
+    box-shadow: 0px -20px 20px 15px #f7fbf4;
+}
 
-#work .left-side, #work .right-side{
+#about .profile-pic {
+    width: 450px;
+    border-radius: 50%;
+}
+
+#about .circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #ffcb69;
+    border-radius: 50%;
+    right: 20%;
+    bottom: -40px;
+}
+
+#skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 500px;
+}
+
+#skills .group-technical-skills {
+    height: 100px;
+}
+
+#skills .group-language-box {
+    height: 80px;
+}
+
+#work .left-side,
+#work .right-side {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-background-size: cover;
-height: 320px;
-    }
-    #work a {
-        text-decoration: none;
-    }
-    #work h5{
-        font-size: 48px;
-        color: #ffcb69;
-        opacity: 0;
-        transition: 0.3s;
-    }
-    #work a:hover h5{
-        opacity: 1;
-        }
-#work .left-side{
-background-image: url(../img/game1.jpg);
-    }
-#work .right-side{
-background-image: url(../img/game2.jpg);
-    }
+    background-size: cover;
+    height: 320px;
+}
 
-    #work .px-0 {
-        padding: 0 5px;
-    }
+#work .left-side:hover,
+#work .right-side:hover {
+    opacity: 0.7;
+}
 
-    .section-info h4 {
-        margin-top: 20px;        
-    }
-    .section-info h4:before{
-        background-color: #181818;
-        width: 5px;
-        height: 5px;
-        border-radius: 50%;
-    }
-    .section-icons {
-        padding-left: 70px;
-    }
-    .section-icons img{
-        width: 200px;
-        opacity: 0.95;
-    }
-    .section-icons img:first-child{
-        width: 170px;
-    }
-    .section-icons img:last-child{
-        width: 160px;
-    }
-    .group-technical-skills {
-        padding-right: 50px;
-    }
-    .internwork {
-        display: flex;
-        justify-content: center;
-        transition: 0.3s;
-    }
-    .internwork:hover {
-        opacity: 0.7;
-    }
-@media (max-width: 1024px)    {
+#work a {
+    text-decoration: none;
+}
+
+#work h5 {
+    font-size: 48px;
+    color: #ffcb69;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#work a:hover h5 {
+    opacity: 1;
+}
+
+#work .left-side {
+    background-image: url(../img/game1.jpg);
+}
+
+#work .right-side {
+    background-image: url(../img/game2.jpg);
+}
+
+#work .px-0 {
+    padding: 0 5px;
+}
+
+.section-info h4 {
+    margin-top: 20px;
+}
+
+.section-info h4:before {
+    background-color: #181818;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.section-icons {
+    padding-left: 70px;
+}
+
+.section-icons img {
+    width: 200px;
+    opacity: 0.95;
+}
+
+.section-icons img:first-child {
+    width: 170px;
+}
+
+.section-icons img:last-child {
+    width: 160px;
+}
+
+.group-technical-skills {
+    padding-right: 50px;
+}
+
+.internwork {
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.internwork:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
     .section-icons {
         padding-left: 20px;
         margin-top: 20%;
     }
-    .section-icons img{
+
+    .section-icons img {
         width: 120px;
     }
-    #about, #skills, #skills .group-technical-skills{
+
+    #about,
+    #skills,
+    #skills .group-technical-skills {
         height: auto;
     }
 }
@@ -137,18 +167,22 @@ background-image: url(../img/game2.jpg);
     #home h1 {
         font-size: 36px;
     }
+
     #about .circle {
         width: 130px;
         height: 130px;
         right: 5%;
-    }    
+    }
+
     .section-icons {
         padding-left: 20px;
         margin-top: 50%;
     }
+
     #work .px-0 {
         padding: 5px;
-    }    
+    }
+
     .group-technical-skills {
         padding-right: 0;
     }
